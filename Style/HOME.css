@@ -1,0 +1,59 @@
+body {
+    margin: 15;
+    padding: 15;
+    background-color: rgb(255, 255, 255);
+  }
+
+.container {
+  display: flex; /* Utilisation de flexbox pour disposer les éléments côte à côte */
+  align-items: center; /* Alignement vertical des éléments */
+}
+
+/* .container2 {text-align: right;} */
+
+.texte {
+  flex: 1; /* Le texte prendra autant d'espace que possible */
+  padding: 20px; /* Ajout d'un peu d'espace autour du texte */
+}
+
+
+.button {
+  background-color: #ffffff;
+  border: 3px solid #000000; 
+  color: rgb(0, 0, 0); 
+  padding: 5px 10px; 
+  font-size: 15px; 
+  margin: 5px; 
+  cursor: pointer;
+}
+
+.f-r {
+  float : right
+}
+
+
+h1 {
+  color: rgb(0, 0, 0);
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-family: verdana;
+  font-size: 20px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
