@@ -2,9 +2,10 @@
 <html lang="pt">
 
     <head>
+        <link rel="stylesheet" type="text/css" href="./Style/HOME.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login</title>
+        <title> Register </title>
     </head>
 
     <body>
@@ -21,39 +22,41 @@
             </a>
 
 
-            <h1 style="cursor: default;">Login</h1>
+            <h1 style="cursor: default;"> Sign Up </h1>
             <center> 
+                <label style="font-size: 20px;" for="name"> Name: </label> <input type="text" id="username" name="username" required>
+                <br>
+                <br>
                 <label style="font-size: 20px;" for="username"> Email: </label> <input type="text" id="username" name="username" required>
                 <br>
                 <br>
                 <label style="font-size: 20px;" for="password"> Password: </label> <input type="password" id="password" name="password" required>
+                    </a>
                 <br>
                 <br>
-               
-                <a href="HOME.html">
+                <label style="font-size: 20px;" for="password"> Re-Type password: </label><input type="password" id="password" name="password" required>
+                <br>
+                <br>
                 <input style="background-color: #ffffff63; /* couleur de fond */
-                border: 2px solid #06090a; /* bordure */
-                color: rgb(0, 0, 0); /* couleur du texte */
-                padding: 5px 20px; /* taille du rembourrage */
-                font-size: 20px; /* taille de police */
-                cursor: pointer;" type="submit" value="Login">
-                </a>
-
-                <a href="FORGOTPASSWORD.html"><button style="background-color: #ffffff; /* couleur de fond */
-                border: none; /* pas de bordure */
-                color: rgb(55, 0, 252); /* couleur du texte */
-                text-align: center; /* alignement du texte */
-                text-decoration: underline; /* soulignement */
-                font-size: 16px; /* taille de police */
-                cursor: pointer;"> Forgot Password? </button>
-                </a>
+                    border: 2px solid #06090a; /* bordure */
+                    color: rgb(0, 0, 0); /* couleur du texte */
+                    padding: 5px 20px; /* taille du rembourrage */
+                    font-size: 20px; /* taille de police */
+                    cursor: pointer;" type="submit" value="Sign Up"> <button style="background-color: #ffffff; /* couleur de fond */
+                    border: none; /* pas de bordure */
+                    color: rgb(55, 0, 252); /* couleur du texte */
+                    text-align: center; /* alignement du texte */
+                    text-decoration: underline; /* soulignement */
+                    font-size: 16px; /* taille de police */
+                    cursor: pointer;"> Learn more </button>
             </center>
         </div>
 
-
+        <div class="copyright">
         <footer style="background-color: #ffffff; border: 1px solid #06090a;">
             <p>&copy; Copyright 2024 - All rights reserved by ...</p>
         </footer>
+        </div>
 
     </body>
 
