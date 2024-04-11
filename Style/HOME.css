@@ -1,6 +1,6 @@
 body {
-    margin: 15;
-    padding: 15;
+    margin: 30;
+    padding: 30;
     background-color: rgb(255, 255, 255);
   }
 
@@ -9,12 +9,7 @@ body {
   align-items: center; 
 }
 
-.texte {
-  flex: 1; /* Le texte prendra autant d'espace que possible */
-  padding: 20px; /* Ajout d'un peu d'espace autour du texte */
-  font-family: verdana;
-  font-size: 30px;
-}
+
 
 .button {
   background-color: #ffffff;
@@ -64,6 +59,8 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+  background-color: #e7e7e7; 
+  border: 1px solid #06090a;
 }
 
 
@@ -75,4 +72,11 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.texte {
+  flex: 1; /* Le texte prendra autant d'espace que possible */
+  padding: 20px; /* Ajout d'un peu d'espace autour du texte */
+  font-family: verdana;
+  font-size: 50px;
 }
